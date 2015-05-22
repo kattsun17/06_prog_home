@@ -57,19 +57,27 @@ int main(void)
 
     //----  計算と出力 
     // 加算
-	if ( srtcmp("ope","plus") {
+	if ( srtcmp("ope","plus") == 0 ) {
 		// 和の出力
-		printf("%d", n1 + n2);
+		printf("%d", n1 + n2);;
 	}
     // 減算
-    // 差の出力
+	else if ( srtcmp("ope","minus") == 0 ) {
+		// 差の出力
+		printf("%d", n1 - n2);
+	}
     // 乗算
-    // 積の出力
+	else if ( strcmp("ope","multi") == 0 ) {
+		// 積の出力
+		printf("%d", n1 * n2);
+	}
     // 除算
-    // 商の出力
-    
+	else if ( strcmp("ope","div") == 0 ) {
+		// 商の出力
+		printf("%d", n1 / n2);
+	}
     // エラーメッセージの出力
-
+	else { printf("ERR"); }	
     //----  終了処理
     return 0;
 }
