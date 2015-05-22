@@ -54,8 +54,8 @@ int main(void)
     scanf("%d", &n1);
     scanf("%d", &n2);
 
-	//printf("%d", strcmp(ope,"plus\0"));
-	//puts(ope);
+    //printf("%d", strcmp(ope,"plus\0"));
+    //puts(ope);
 
 	//----  ŒvZ‚Æo—Í 
     // ‰ÁZ
