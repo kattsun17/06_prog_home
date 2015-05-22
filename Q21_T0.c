@@ -54,25 +54,27 @@ int main(void)
 	scanf("%s", ope);
 	scanf("%d", &n1);
 	scanf("%d", &n2);
-
+	
+	//printf("%d", strcmp(ope,"plus\0"));
+	//puts(ope);
     //----  ŒvZ‚Æo—Í 
     // ‰ÁZ
-	if ( strcmp("ope","plus") == 0 ) {
+	if ( strcmp(ope,"plus") == 0 ) {
 		// ˜a‚Ìo—Í
 		printf("%d", n1 + n2);;
 	}
     // Œ¸Z
-	else if ( strcmp("ope","minus") == 0 ) {
+	else if ( strcmp(ope,"minus") == 0 ) {
 		// ·‚Ìo—Í
 		printf("%d", n1 - n2);
 	}
     // æZ
-	else if ( strcmp("ope","multi") == 0 ) {
+	else if ( strcmp(ope,"multi") == 0 ) {
 		// Ï‚Ìo—Í
 		printf("%d", n1 * n2);
 	}
     // œZ
-	else if ( strcmp("ope","div") == 0 ) {
+	else if ( strcmp(ope,"div") == 0 ) {
 		// ¤‚Ìo—Í
 		printf("%d", n1 / n2);
 	}
