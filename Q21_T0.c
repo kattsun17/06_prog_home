@@ -57,12 +57,12 @@ int main(void)
 
     //----  ŒvZ‚Æo—Í 
     // ‰ÁZ
-	if ( srtcmp("ope","plus") == 0 ) {
+	if ( strcmp("ope","plus") == 0 ) {
 		// ˜a‚Ìo—Í
 		printf("%d", n1 + n2);;
 	}
     // Œ¸Z
-	else if ( srtcmp("ope","minus") == 0 ) {
+	else if ( strcmp("ope","minus") == 0 ) {
 		// ·‚Ìo—Í
 		printf("%d", n1 - n2);
 	}
