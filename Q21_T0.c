@@ -56,7 +56,8 @@ int main(void)
 
 	//printf("%d", strcmp(ope,"plus\0"));
 	//puts(ope);
-    //----  ŒvZ‚Æo—Í 
+
+	//----  ŒvZ‚Æo—Í 
     // ‰ÁZ
     if ( strcmp(ope,"plus") == 0 ) {
         // ˜a‚Ìo—Í
