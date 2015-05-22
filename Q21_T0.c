@@ -53,32 +53,32 @@ int main(void)
 	scanf("%s", ope);
 	scanf("%d", &n1);
 	scanf("%d", &n2);
-	
+
 	//printf("%d", strcmp(ope,"plus\0"));
 	//puts(ope);
     //----  計算と出力 
     // 加算
-	if ( strcmp(ope,"plus") == 0 ) {
-		// 和の出力
-		printf("%d", n1 + n2);;
-	}
+    if ( strcmp(ope,"plus") == 0 ) {
+        // 和の出力
+        printf("%d", n1 + n2);;
+    }
     // 減算
-	else if ( strcmp(ope,"minus") == 0 ) {
-		// 差の出力
-		printf("%d", n1 - n2);
-	}
+    else if ( strcmp(ope,"minus") == 0 ) {
+        // 差の出力
+        printf("%d", n1 - n2);
+    }
     // 乗算
-	else if ( strcmp(ope,"multi") == 0 ) {
-		// 積の出力
-		printf("%d", n1 * n2);
-	}
+    else if ( strcmp(ope,"multi") == 0 ) {
+        // 積の出力
+        printf("%d", n1 * n2);
+    }
     // 除算
-	else if ( strcmp(ope,"div") == 0 ) {
-		// 商の出力
-		printf("%d", n1 / n2);
-	}
+    else if ( strcmp(ope,"div") == 0 ) {
+        // 商の出力
+        printf("%d", n1 / n2);
+    }
     // エラーメッセージの出力
-	else { printf("ERR"); }	
+    else { printf("ERR"); }	
     //----  終了処理
     return 0;
 }
