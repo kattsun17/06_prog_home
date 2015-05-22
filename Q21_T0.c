@@ -50,9 +50,9 @@ int main(void)
 
     //----  “ü—Íˆ—
     // ‰‰Z–¼‚Æ2‚Â‚Ìˆø”‚Ì“ü—Í
-	scanf("%s", ope);
-	scanf("%d", &n1);
-	scanf("%d", &n2);
+    scanf("%s", ope);
+    scanf("%d", &n1);
+    scanf("%d", &n2);
 
 	//printf("%d", strcmp(ope,"plus\0"));
 	//puts(ope);
